@@ -25,4 +25,4 @@ I don't think that these values are the best. Because there is no best. It depen
 2. I = 0.1. By my experience integral component can't be large. And should be used only to avoid stable error or do a some fast movements by fastest collecting errors. But the large values of sum_error shuold be wiped at the certain time. For that case there is another tweak. In my task I just limited this error in [-1000, 1000] and it can change my speed value only by [-100, 100] (1000\*0.1).
 3. D = 1. This values doesn't bring stability for the smooth walls but it helps when you have a sharp edges, gaps, disturbances in sensor. It allows to compensate the error from P component.
 
-## [Link](https://youtu.be/rBSXCNGxGx8)
+## [YouTube Link](https://youtu.be/rBSXCNGxGx8)
